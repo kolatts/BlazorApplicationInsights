@@ -1,8 +1,8 @@
-﻿using BlazorApplicationInsights.Models;
+﻿using Imagile.BlazorAppInsights.Models;
 using System.ComponentModel;
 using System.Threading.Tasks;
 
-namespace BlazorApplicationInsights.Interfaces;
+namespace Imagile.BlazorAppInsights.Interfaces;
 
 /// <summary>
 /// Dependencies Plugin

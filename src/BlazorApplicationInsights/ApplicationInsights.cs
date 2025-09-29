@@ -1,10 +1,10 @@
-﻿using BlazorApplicationInsights.Interfaces;
-using BlazorApplicationInsights.Models;
+﻿using Imagile.BlazorAppInsights.Interfaces;
+using Imagile.BlazorAppInsights.Models;
 using Microsoft.JSInterop;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace BlazorApplicationInsights;
+namespace Imagile.BlazorAppInsights;
 
 /// <inheritdoc />
 public class ApplicationInsights : IApplicationInsights

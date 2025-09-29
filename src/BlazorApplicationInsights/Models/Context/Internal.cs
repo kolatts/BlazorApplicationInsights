@@ -5,7 +5,7 @@ using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
-namespace BlazorApplicationInsights.Models.Context;
+namespace Imagile.BlazorAppInsights.Models.Context;
 
 /// <summary>
 /// Source: https://github.com/microsoft/ApplicationInsights-JS/blob/main/shared/AppInsightsCommon/src/Interfaces/Context/IInternal.ts

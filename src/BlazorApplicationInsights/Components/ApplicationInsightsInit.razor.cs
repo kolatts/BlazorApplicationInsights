@@ -2,12 +2,12 @@
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
-using BlazorApplicationInsights.Interfaces;
+using Imagile.BlazorAppInsights.Interfaces;
 using Microsoft.AspNetCore.Components;
 using Microsoft.Extensions.Logging;
 using Microsoft.JSInterop;
 
-namespace BlazorApplicationInsights;
+namespace Imagile.BlazorAppInsights;
 
 /// <summary>
 /// BlazorApplicationInsights initialization component

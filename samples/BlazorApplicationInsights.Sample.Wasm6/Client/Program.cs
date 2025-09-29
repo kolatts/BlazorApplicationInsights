@@ -1,4 +1,4 @@
-using BlazorApplicationInsights.Models;
+using Imagile.BlazorAppInsights.Models;
 using BlazorApplicationInsights.Sample.Wasm6;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;

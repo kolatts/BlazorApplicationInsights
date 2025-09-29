@@ -1,4 +1,5 @@
-using BlazorApplicationInsights.Models;
+using Imagile.BlazorAppInsights;
+using Imagile.BlazorAppInsights.Models;
 using BlazorApplicationInsights.Sample.WebApp.Client.Pages;
 using BlazorApplicationInsights.Sample.WebApp.Components;
 
