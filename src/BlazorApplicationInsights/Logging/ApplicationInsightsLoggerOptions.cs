@@ -6,7 +6,7 @@ using JetBrains.Annotations;
 using Microsoft.Extensions.Logging;
 
 // ReSharper disable once CheckNamespace
-namespace BlazorApplicationInsights;
+namespace Imagile.BlazorAppInsights;
 
 /// <summary>
 /// Options for <see cref="ApplicationInsightsLogger"/>

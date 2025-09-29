@@ -1,6 +1,6 @@
 [![Demo](https://img.shields.io/badge/Live-Demo-Blue?style=flat-square)](https://BlazorApplicationInsights.netlify.app/)
-[![Nuget (with prereleases)](https://img.shields.io/nuget/vpre/BlazorApplicationInsights.svg?style=flat-square)](https://www.nuget.org/packages/BlazorApplicationInsights)
-[![Nuget (with prereleases)](https://img.shields.io/nuget/dt/BlazorApplicationInsights.svg?style=flat-square)](https://www.nuget.org/packages/BlazorApplicationInsights)
+[![Nuget (with prereleases)](https://img.shields.io/nuget/vpre/Imagile.BlazorAppInsights.svg?style=flat-square)](https://www.nuget.org/packages/Imagile.BlazorAppInsights)
+[![Nuget (with prereleases)](https://img.shields.io/nuget/dt/Imagile.BlazorAppInsights.svg?style=flat-square)](https://www.nuget.org/packages/Imagile.BlazorAppInsights)
 ![](https://github.com/IvanJosipovic/BlazorApplicationInsights/workflows/Create%20Release/badge.svg)
 
 Application Insights for Blazor web applications
@@ -35,8 +35,8 @@ Application Insights for Blazor web applications
 
 ## Install on Blazor Web App
 
-- Add [BlazorApplicationInsights NuGet](https://www.nuget.org/packages/BlazorApplicationInsights) to the Client project
-  - ```dotnet add package BlazorApplicationInsights```
+- Add [Imagile.BlazorAppInsights NuGet](https://www.nuget.org/packages/Imagile.BlazorAppInsights) to the Client project
+  - ```dotnet add package Imagile.BlazorAppInsights```
 - Add call to Program.cs in the root and Client project if one exists
 
   ```csharp
@@ -47,7 +47,7 @@ Application Insights for Blazor web applications
   ```
 
 - Add using statement to _Imports.razor
-  - ```@using BlazorApplicationInsights;```
+  - ```@using Imagile.BlazorAppInsights;```
 - Add component below \<base href="/" /> in App.razor
   - **NOTE:** Interactivity is necessary only when the optional onAppInsightsInit callback is configured as part of the AddBlazorApplicationInsights setup.
   - ```<ApplicationInsightsInit @rendermode="@InteractiveAuto" />```
@@ -71,8 +71,8 @@ Application Insights for Blazor web applications
 
 ## Install on Blazor WebAssembly Standalone App
 
-- Add [BlazorApplicationInsights NuGet](https://www.nuget.org/packages/BlazorApplicationInsights) to the Client project
-  - ```dotnet add package BlazorApplicationInsights```
+- Add [Imagile.BlazorAppInsights NuGet](https://www.nuget.org/packages/Imagile.BlazorAppInsights) to the Client project
+  - ```dotnet add package Imagile.BlazorAppInsights```
 - Add call to Program.cs and set the ConnectionString
 
   ```csharp
@@ -83,7 +83,7 @@ Application Insights for Blazor web applications
   ```
 
 - Add using statement to _Imports.razor
-  - ```@using BlazorApplicationInsights;```
+  - ```@using Imagile.BlazorAppInsights;```
 - Add component to the top of App.razor
   - ```<ApplicationInsightsInit IsWasmStandalone="true" />```
 - Add Application Insights JS to head below \<base href="/" /> in index.html
@@ -104,8 +104,8 @@ Application Insights for Blazor web applications
 
 ## Install on Blazor WebAssembly Standalone App - Manual
 
-- Add [BlazorApplicationInsights NuGet](https://www.nuget.org/packages/BlazorApplicationInsights) to the Client project
-  - ```dotnet add package BlazorApplicationInsights```
+- Add [Imagile.BlazorAppInsights NuGet](https://www.nuget.org/packages/Imagile.BlazorAppInsights) to the Client project
+  - ```dotnet add package Imagile.BlazorAppInsights```
 - Add call to Program.cs
 
   ```csharp
@@ -113,7 +113,7 @@ Application Insights for Blazor web applications
   ```
 
 - Add using statement to _Imports.razor
-  - ```@using BlazorApplicationInsights;```
+  - ```@using Imagile.BlazorAppInsights;```
 - Add component to the top of App.razor
   - ```<ApplicationInsightsInit IsWasmStandalone="true" />```
 - Add Application Insights JS to head below \<base href="/" /> in index.html

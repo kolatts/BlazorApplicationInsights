@@ -1,4 +1,4 @@
-﻿namespace BlazorApplicationInsights.Models;
+﻿namespace Imagile.BlazorAppInsights.Models;
 
 /// <summary>
 /// Defines the level of severity for the event.

@@ -5,7 +5,7 @@ using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
-namespace BlazorApplicationInsights.Models.Context;
+namespace Imagile.BlazorAppInsights.Models.Context;
 
 /// <summary>
 /// Automatic Session Manager

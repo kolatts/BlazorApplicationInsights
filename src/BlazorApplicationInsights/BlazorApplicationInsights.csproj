@@ -3,8 +3,8 @@
   <PropertyGroup>
     <TargetFrameworks>net6.0;net7.0;net8.0;net9.0</TargetFrameworks>
     <IsPackable>true</IsPackable>
-    <Title>BlazorApplicationInsights</Title>
-    <PackageId>BlazorApplicationInsights</PackageId>
+    <Title>Imagile.BlazorAppInsights</Title>
+    <PackageId>Imagile.BlazorAppInsights</PackageId>
     <Description>Application Insights for Blazor web applications</Description>
     <Authors>Ivan Josipovic</Authors>
     <PackageProjectUrl>https://blazorapplicationinsights.netlify.app</PackageProjectUrl>

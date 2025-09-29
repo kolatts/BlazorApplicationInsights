@@ -1,8 +1,8 @@
 ﻿using System.Threading.Tasks;
-using BlazorApplicationInsights.Models;
+using Imagile.BlazorAppInsights.Models;
 using Microsoft.JSInterop;
 
-namespace BlazorApplicationInsights.Interfaces;
+namespace Imagile.BlazorAppInsights.Interfaces;
 
 /// <summary>
 /// Application Insights API

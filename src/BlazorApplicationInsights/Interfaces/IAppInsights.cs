@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Threading.Tasks;
-using BlazorApplicationInsights.Models;
+using Imagile.BlazorAppInsights.Models;
 
-namespace BlazorApplicationInsights.Interfaces;
+namespace Imagile.BlazorAppInsights.Interfaces;
 
 /// <summary>
 /// Application Insights

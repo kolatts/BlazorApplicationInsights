@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using BlazorApplicationInsights.Interfaces;
-using BlazorApplicationInsights.Models;
+using Imagile.BlazorAppInsights.Interfaces;
+using Imagile.BlazorAppInsights.Models;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.JSInterop;
