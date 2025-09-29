@@ -1,3 +1,4 @@
+using Imagile.BlazorAppInsights;
 using Imagile.BlazorAppInsights.Models;
 using BlazorApplicationInsights.Sample.Wasm6;
 using Microsoft.AspNetCore.Components.Web;

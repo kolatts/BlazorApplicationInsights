@@ -1,3 +1,4 @@
+using Imagile.BlazorAppInsights;
 using Imagile.BlazorAppInsights.Models;
 using BlazorApplicationInsights.Sample.Server.Data;
 
